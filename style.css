@@ -1,0 +1,43 @@
+#barra-nav {
+    background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar-nav .nav-link {
+    opacity: 60%;
+}
+.navbar-nav .nav-link:hover {
+    opacity: 100%;
+}
+
+
+header {
+    background-color: #1f3f34;
+}
+
+.menu {
+    background-image: url(img/fondomenu1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#card1 {
+    background-color: #ffdc92;
+}
+
+#card2 {
+    background-color: #dcb04d;
+}
+
+#card3 {
+    background-color: #50442c;
+}
+
+#btn:hover {
+    background-color: #114f5c;
+    color: white;
+}
+
